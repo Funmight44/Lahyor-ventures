@@ -1,0 +1,14 @@
+{
+    "category": [
+        {
+            "title": "women category",
+            "data": [
+                {"title": "Jean", "description": "explore Now", "imgPath": "./images/jean.jpg"},
+                {"title": "Shoe", "description": "explore Now", "imgPath": "./images/female shoe.jpg"},
+                {"title": "top and Jean", "description": "explore Now", "imgPath": "./images/female jean.jpg"},
+                {"title": "shoe", "description": "explore Now", "imgPath": "./images/female shoe2.jpg"},
+                {"title": "Shirt and Jean", "description": "explore Now", "imgPath": "./images/shirt.jpg"}
+            ]
+        }
+    ]
+}

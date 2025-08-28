@@ -1,0 +1,268 @@
+{
+  "products": [
+    {
+      "id": "m1",
+      "imgpath": "/images/IMG-20241204-WA0045.jpg",
+      "title": "side bag",
+      "price": "20",
+      "size": ["S", "L", "M"],
+      "inStock": true,
+      "category": "female",
+      "popular": false
+    },
+    {
+      "id": "m2",
+      "imgpath": "/images/female-top.jpg",
+      "title": "Quality Female Top",
+      "price": "20",
+      "size": ["S", "L", "M"],
+      "description": "Bodycon gown made with high-stretch fabric.",
+      "inStock": false,
+      "category": "female",
+      "popular": false
+    },
+    {
+      "id": "m3",
+      "imgpath": "/images/female-hoodie.jpg",
+      "title": "Quality Hoodie with Joggers",
+      "price": "30",
+      "description": "Two-piece hoodie and joggers set for a comfortable and stylish look.",
+      "size": ["S", "L", "M"],
+      "inStock": true,
+      "category": "female",
+      "popular": true
+    },
+    {
+      "id": "m4",
+      "imgpath": "/images/roundneck.jpg",
+      "title": "Quality Unisex Round Neck",
+      "price": "20",
+      "inStock": false,
+      "category": "female",
+      "popular": false
+    },
+    {
+      "id": "m5",
+      "imgpath": "/images/female-jean.jpg",
+      "title": "Quality Fitted Female Jean",
+      "price": "20",
+      "description": "Comfortable denim jeans with a modern fit.",
+      "size": ["S", "L", "M"],
+      "inStock": false,
+      "category": "female",
+      "popular": false
+    },
+    {
+      "id": "f1",
+      "imgpath": "/images/men-joggers.jpg",
+      "title": "Joggers",
+      "price": "20",
+      "inStock": true,
+      "category": "male",
+      "popular": true
+    },
+    {
+      "id": "f2",
+      "imgpath": "/images/jean.jpg",
+      "title": "Jean",
+      "price": "10",
+      "inStock": true,
+      "category": "male",
+      "popular": false
+    },
+    {
+      "id": "f3",
+      "imgpath": "/images/shirt.jpg",
+      "title": "Shirt",
+      "price": "15",
+      "description": "Formal shirt ideal for office or events.",
+      "size": ["M", "L", "XL"],
+      "inStock": false,
+      "category": "male",
+      "popular": false
+    },
+    {
+      "id": "f4",
+      "imgpath": "/images/black-sneakers.jpg",
+      "title": "Sneaker",
+      "price": "20",
+      "inStock": false,
+      "category": "male",
+      "popular": false
+    },
+    {
+      "id": "f5",
+      "imgpath": "/images/black-top.jpg",
+      "title": "Black top",
+      "price": "20",
+      "description": "Casual sneaker that complements every outfit.",
+      "size": ["34", "40", "44"],
+      "inStock": false,
+      "category": "male",
+      "popular": false
+    },
+    {
+      "id": "f6",
+      "imgpath": "/images/sneaker3.jpg",
+      "title": "Sneaker",
+      "price": "40",
+      "description": "Durable and trendy sneakers suitable for daily use.",
+      "size": ["34", "40", "44"],
+      "inStock": false,
+      "category": "male",
+      "popular": true
+    },
+    {
+      "id": "x1",
+      "imgpath": "/images/jean.jpg",
+      "title": "Jean",
+      "price": "10",
+      "inStock": true,
+      "size": ["SM", "L", "M"],
+      "category": "mixed",
+      "popular": false
+    },
+    {
+      "id": "x2",
+      "imgpath": "/images/IMG-20250120-WA0170.jpg",
+      "title": "Quality Vintage Shirt",
+      "price": "15",
+      "inStock": true,
+      "size": ["SM", "L", "M"],
+      "category": "mixed",
+      "popular": true
+    },
+    {
+      "id": "x3",
+      "imgpath": "/images/IMG-20250127-WA0347.jpg",
+      "title": "Quality Female Sandal",
+      "price": "20",
+      "inStock": false,
+      "size": ["SM", "L", "M"],
+      "category": "mixed",
+      "popular": false
+    },
+    {
+      "id": "x4",
+      "imgpath": "/images/IMG-20250227-WA0147.jpg",
+      "title": "Quality Female Cover Shoe",
+      "price": "10",
+      "inStock": true,
+      "size": ["SM", "L", "M"],
+      "category": "mixed",
+      "popular": false
+    },
+    {
+      "id": "x5",
+      "imgpath": "/images/IMG-20250127-WA0347.jpg",
+      "title": "Quality Female Sandal",
+      "price": "20",
+      "inStock": true,
+      "size": ["SM", "L", "M"],
+      "category": "mixed",
+      "popular": false
+    },
+    {
+      "id": "x6",
+      "imgpath": "/images/IMG-20250120-WA0170.jpg",
+      "title": "Vintage Shirt",
+      "price": "20",
+      "inStock": false,
+      "size": ["SM", "L", "M"],
+      "category": "mixed",
+      "popular": true
+    },
+    {
+      "id": "x7",
+      "imgpath": "/images/IMG-20250311-WA0325.jpg",
+      "title": "Quality Stretchy Short Gown",
+      "price": "10",
+      "inStock": true,
+      "size": ["SM", "L", "M"],
+      "category": "mixed",
+      "popular": false
+    },
+    {
+      "id": "x8",
+      "imgpath": "/images/IMG-20241204-WA0045.jpg",
+      "title": "Quality bags",
+      "price": "20",
+      "inStock": false,
+      "size": ["SM", "L", "M"],
+      "category": "mixed",
+      "popular": false
+    },
+    {
+      "id": "k1",
+      "imgpath": "/images/baby-boy.jpg",
+      "title": "Quality two piece dress",
+      "price": "15",
+      "inStock": false,
+      "size": ["SM", "L", "M"],
+      "category": "kids",
+      "popular": false
+    },
+    {
+      "id": "k2",
+      "imgpath": "/images/baby-gown-pink.jpg",
+      "title": "Quality pink gown",
+      "price": "15",
+      "inStock": true,
+      "size": ["SM", "L", "M"],
+      "category": "kids",
+      "popular": true
+    },
+    {
+      "id": "k3",
+      "imgpath": "/images/baby-jean.jpg",
+      "title": "Quality baby jean",
+      "price": "15",
+      "inStock": false,
+      "size": ["SM", "L", "M"],
+      "category": "kids",
+      "popular": false
+    },
+    {
+      "id": "k4",
+      "imgpath": "/images/baby-up-and-down.jpg",
+      "title": "Quality two piece dress",
+      "price": "12",
+      "inStock": true,
+      "size": ["SM", "L", "M"],
+      "category": "kids",
+      "popular": false
+    },
+    {
+      "id": "k5",
+      "imgpath": "/images/baby-gown-white.jpg",
+      "title": "Quality white gown",
+      "price": "30",
+      "inStock": true,
+      "size": ["SM", "L", "M"],
+      "category": "kids",
+      "popular": true
+    },
+    {
+      "id": "k6",
+      "imgpath": "/images/jumpsuit-jean.jpg",
+      "title": "Quality jumpsuit for 12yrs",
+      "price": "20",
+      "inStock": true,
+      "size": ["SM", "L", "M"],
+      "category": "kids",
+      "popular": false
+    },
+    {
+      "id": "k7",
+      "imgpath": "/images/jean-and-top.jpg",
+      "title": "Quality unisex top and jean",
+      "price": "15",
+      "inStock": false,
+      "size": ["SM", "L", "M"],
+      "category": "kids",
+      "popular": false
+    }
+  ], 
+  "users": [],
+  "orders": []
+}
