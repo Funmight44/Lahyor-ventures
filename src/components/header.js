@@ -29,7 +29,7 @@ const Header = () => {
                 <h2>Lahyor Ventures</h2> 
             </div>
 
-            <nav  className={showNav ? "show-nav" : ''}>
+            <nav  className={showNav ? "show-nav" : ''} onClick={() => setShowNav(false)}>
                 <Link to="/" onClick={() => setShowNav(false)}><p>Home</p></Link>  
                 <h4 onClick={()=> navigate("/products?category=male")}>Men</h4>
                 <h4 onClick={()=> navigate("/products?category=female")}>Female</h4>

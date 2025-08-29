@@ -18,11 +18,11 @@ const SearchProduct = () => {
 
   useEffect(() => {
       function searchProducts(){
-    if(!allProducts && query) return [];
-     const filtered = allProducts.filter((item) => item.title.toLowerCase().includes(query.toLowerCase()));
-     setFilteredProducts(filtered)
+        if(!allProducts && query) return [];
+        const filtered = allProducts.filter((item) => item.title.toLowerCase().includes(query.toLowerCase()));
+        setFilteredProducts(filtered)
   }
-  searchProducts();
+       searchProducts();
   }, [allProducts, query]);
   
 
