@@ -1,11 +1,11 @@
 import { Link, useNavigate, useSearchParams} from 'react-router-dom';
 
 import { useCart } from '../context';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 const Header = () => {
-    const {cart} = useCart();
+    const {totalQuantity} = useCart();
     const [cartToggle, setCartToggle] = useState(false)
     const [searchParams] = useSearchParams();
     const navigate = useNavigate()
@@ -13,9 +13,7 @@ const Header = () => {
 
     const [showNav, setShowNav] = useState(false)
    
- 
 
-    
    const handleSubmit = (e) => {
       e.preventDefault();
       if (!query.trim()) return;
@@ -50,7 +48,7 @@ const Header = () => {
                 <i class="bi bi-person"></i>
                 <div className='cart-div' onClick={() => setCartToggle(!cartToggle)}>
                    <Link to="cart"><i class="bi bi-cart" ></i></Link>
-                   <span>{cart.length}</span>
+                   <span>{totalQuantity}</span>
                 </div>
                 
             </div>

@@ -8,7 +8,7 @@ import CheckOut from "./checkout";
 
 const CartList = () => {
     
-    const {cart, removeFromCart, clearCart, total} = useCart();
+    const {cart, removeFromCart, clearCart, total, totalQuantity} = useCart();
      const [checkOut, setCheckout] = useState(false);
     return ( 
         <>
@@ -16,7 +16,7 @@ const CartList = () => {
         <div className="cart-list-page">
             <div className="cart">
                 <div className="cart-top-text">
-                    <p>Total: {cart.length}</p>
+                    <p>Quantity: {totalQuantity}</p>
                     <span>Total Amount: ${total}</span>
                 </div>
                 

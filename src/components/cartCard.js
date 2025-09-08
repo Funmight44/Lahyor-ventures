@@ -1,5 +1,9 @@
-const CartCard = ({ item, removeFromCart }) => {
-  if (!item) return null; //Prevents breaking if item is undefined
+import { useCart } from "../context";
+
+const CartCard = ({ item}) => {
+  const {removeFromCart } = useCart();
+  //Prevents breaking if item is undefined
+   if (!item) return null;
 
   return ( 
       <div className="cartCard">
