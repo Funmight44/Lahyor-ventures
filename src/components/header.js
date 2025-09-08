@@ -1,7 +1,7 @@
 import { Link, useNavigate, useSearchParams} from 'react-router-dom';
 
 import { useCart } from '../context';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 
 const Header = () => {
